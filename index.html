@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Иванов Иван Иванович</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Привет, мир!</h1>
+            <p>Это моя первая веб-страница.</p>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <p class="highlight">Этот текст будет выделен.</p>
+            <p id="special">Этот текст особенный.</p>
+            <p>Добро пожаловать на мой сайт!</p>
+
+            <section class="contact-form">
+                <h2>Форма обратной связи</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Имя:</label>
+                        <input type="text" id="name" name="name" required placeholder="Введите ваше имя">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="Введите ваш email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Телефон:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Введите ваш телефон">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение:</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Введите ваше сообщение"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Подписаться на рассылку</label>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="submit-btn">Отправить</button>
+                        <button type="reset" class="reset-btn">Очистить</button>
+                    </div>
+                </form>
+            </section>
+            
+            <ul>
+                <li>Пункт 1</li>
+                <li>Пункт 2</li>
+                <li>Пункт 3</li>
+            </ul>
+            <img src="C:\Users\asuri\Downloads\64cd1d89351477.5df3f90309729.jpeg" alt="Описание изображения" class="page-image">
+        </main>
+        
+        <footer>
+            <p>&copy; 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
